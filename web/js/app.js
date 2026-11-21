@@ -3,6 +3,10 @@
 (function () {
   const app = document.getElementById("app");
   const dateInput = document.getElementById("date-input");
+  // 内容库路径：本地开发在 /web/ 子路径下（../content/），部署在根路径（content/）
+  const CONTENT_BASE = window.location.pathname.split("/").includes("web")
+    ? "../content/"
+    : "content/";
 
   function todayStr() {
     const d = new Date();
@@ -32,7 +36,7 @@
     dateInput.value = dateStr;
     let data;
     try {
-      const resp = await fetch(`../content/${dateStr}.json`);
+      const resp = await fetch(`${CONTENT_BASE}${dateStr}.json`);
       if (!resp.ok) throw new Error(resp.status);
       data = await resp.json();
     } catch (e) {
