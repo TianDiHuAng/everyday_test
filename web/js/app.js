@@ -56,7 +56,7 @@
     const featured = featuredIndex(dateStr, data.puzzles.length);
 
     const head = PF.el("div", "day-head");
-    const title = PF.el("h1", null, `${dateStr} · 每日一题`);
+    const title = PF.el("h1", null, `${dateStr} · 每日谜题`);
     head.appendChild(title);
     if (featured === "all") {
       head.appendChild(PF.el("span", "featured-badge", "⭐ 周五全科目日"));

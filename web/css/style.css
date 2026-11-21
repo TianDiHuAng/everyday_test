@@ -34,8 +34,9 @@ body {
   z-index: 5;
 }
 
-.brand { font-weight: 700; font-size: 18px; }
-.brand .sub { color: var(--muted); font-weight: 400; font-size: 14px; margin-left: 6px; }
+.brand { font-weight: 700; font-size: 18px; display: flex; align-items: center; gap: 8px; letter-spacing: 2px; }
+.brand .sub { color: var(--muted); font-weight: 400; font-size: 14px; margin-left: 2px; letter-spacing: 0; }
+.brand-icon { width: 22px; height: 22px; border-radius: 6px; }
 
 .date-nav { display: flex; gap: 6px; align-items: center; }
 .date-nav button {

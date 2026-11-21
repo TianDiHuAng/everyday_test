@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7b52c0"/>
+      <stop offset="1" stop-color="#4a3182"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <!-- 镜中月 -->
+  <circle cx="32" cy="25" r="13" fill="#f7dd8a"/>
+  <circle cx="38.5" cy="21" r="11.5" fill="#5e3fa0"/>
+  <!-- 水中月影 -->
+  <ellipse cx="32" cy="44" rx="9" ry="2.6" fill="#f7dd8a" opacity="0.35"/>
+  <!-- 水波 -->
+  <path d="M15 50 q5.8 -4 11.7 0 t11.7 0 t11.6 0" stroke="#cfe7ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M19 56 q5.8 -4 11.7 0 t11.7 0" stroke="#9ccfff" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

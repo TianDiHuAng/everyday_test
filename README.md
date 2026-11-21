@@ -1,6 +1,6 @@
-# PuzzleForge · 每日谜题生成器
+# 镜花水月 · 每日谜题（PuzzleForge）
 
-[![在线体验](https://img.shields.io/badge/在线体验-daily--puzzle-kjct.zai.site-6f4aa8)](https://daily-puzzle-kjct.zai.site)
+[![在线体验](https://img.shields.io/badge/镜花水月·每日谜题-daily--puzzle-kjct.zai.site-6f4aa8)](https://daily-puzzle-kjct.zai.site)
 [![测试](https://img.shields.io/badge/pytest-32%20passing-1f9d55)](#测试与验收)
 [![题型](https://img.shields.io/badge/题型-6%20种插件化-6f4aa8)](#各题型唯一解与难度机制)
 
