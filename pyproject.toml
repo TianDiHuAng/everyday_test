@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puzzleforge"
+version = "0.1.0"
+description = "每日谜题生成器：数独/逻辑/填字/密码，唯一解验证 + 难度分级，题型插件化"
+requires-python = ">=3.9"
+
+[project.scripts]
+puzzleforge = "puzzleforge.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
